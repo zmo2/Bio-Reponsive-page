@@ -12,24 +12,29 @@
     <title>About Me</title>
   </head>
   <body>
+    <div class="sticky">
       <!-- Navigation Bar -->
-      <nav class = "container-fluid nav_bar_full">
-          <div class="row nav_bar_content">
+        <div class = "container-fluid nav_bar_full">
+            <div class="row nav_bar_content">
               <!-- Logo/Name -->
-            <div class="col-9"><span id="name">Eric Mo</span></div>
+                <div class="col-md-8">
+                    <div class="col-md-4" id="name">Eric Mo</div>
+                </div>
                 <!-- page links -->
-            <div class = "nav_link col-1"><a href="contact.html">Contact</a></div>
-            <div class = "nav_link col-1"><a href="portfolio.html">Portfolio</a></div>
-            <div class = "nav_link col-1" id="oddtop" ><a href="index.html">About</a></div>
+                <div class="col-md-3 nav_link">
+                    <a class= "nav_link_item" href="contact.html">Contact</a>
+                    <a class= "nav_link_item" href="portfolio.html">Portfolio</a>
+                    <a class= "nav_link_item" href="index.html">About</a>
+                </div>
+            </div>
         </div>
-      </nav>
          <!-- Main content section -->
-         <div class="container main_content">
-             <div class="row">
+        <div class="container main_content">
+            <div class="row">
                 <p class="body_header">About Me</p>
             </div>
             <!-- Description about me -->
-            <div class="row">
+            <div class="center_section">
                 <img class="my_img" src="assets/images/download.png" alt="picture of Eric Mo">
                 <p class = "description">
                     A finance professional who is curious about technology. 
@@ -39,12 +44,10 @@
                     With years of experience in the finance industry, I saw the many deficiencies in business operations. I hope to learn about ways to improve efficiency and provide a better product using my expertise in finance and software. 
             </div>
         </div>
-
-        <footer class="container-fluid">
-            <p id = "footer_content">Copyright &reg;</p>
+        <footer class="container-fluid" id = "footer_content">
+            <p>Copyright &reg;</p>
         </footer>
-    
-
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
