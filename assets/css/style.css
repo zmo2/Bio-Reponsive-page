@@ -34,14 +34,14 @@ a{text-decoration: none;
 
 .sticky{
     display:flex;
-    /* min-height:100vh; */
+    min-height:100%;
     flex-direction: column;
 }
 
 body{
     background-color: lightgrey;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    flex:1;
+    flex: 1;
 }
 
 /* .container1{
@@ -85,6 +85,7 @@ body{
     border-top: 8px;
     border-top-style: solid;
     border-color: #4aaaa5;
+    flex-shrink: 0;
 }
 
 .body_header{
@@ -120,20 +121,20 @@ body{
 /* Contact */
 .parentform{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 30px;
+    margin: 10px;
     color: #777777;
 }
 
 .bgbox{
-    height:100px;
-    width: 890px;
+    /* height:100px;
+    width: 890px; */
     margin: 5px;
     border-color: lightgrey;
 }
 
 .smbox{
-    width: 890px;
-    height:20px;
+    /* width: 890px;
+    height:20px; */
     margin: 5px;
     margin-bottom: 15px;
 }
