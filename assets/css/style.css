@@ -3,6 +3,20 @@ a{text-decoration: none;
     color:#777777;
 }
 
+html,body{
+    height: 100%;
+}
+.page_content{
+    flex: 1 0 auto;
+}
+.footer{
+    flex-shrink: none;
+}
+
+.footer_text{
+    
+    max-height: 100%;
+}
 .nav_bar_full{
     background-color: white;
     border-bottom-width: 2px;
@@ -65,7 +79,6 @@ body{
     border-top: 8px;
     border-top-style: solid;
     border-color: #4aaaa5;
-    flex-shrink: 0;
 }
 
 .body_header{
@@ -87,8 +100,7 @@ body{
 .my_img{
     float: left;
     padding: 5px;
-    height:150px;
-    width: 150px;
+    min-width: 100%;
     margin: 15px;
 }
 
@@ -130,74 +142,28 @@ body{
 }
 
 /* Portfolio */
-.pic{
-    margin:auto;
-    position: relative;
-    text-align: center;
-    width: 900px;
-    height: 100vh;
-}
-
-.projname{
-    background-color: #4aaaa5;
-    width: 280px;
-    height:30px;
-    padding: 10px;
-    text-align: left;
-    z-index: 1;
+.projs{
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .projpic{
-    width: 300px;
-    height:200px;
+    margin: 10px;
+    min-width: 100%;
     z-index: 0;
 }
 
-#left1{
-    position: absolute;
-    left: 20px;
-    top: 50px;
+.projname{
+    z-index: 1;
+    float: left;
+    position: relative;
+    bottom: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: white;
+    margin: 10px;
+    min-width: 100%;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
-
-#proj1{
-    position: absolute;
-    left:20px;
-    top:190px;
-}
-
-#left3{
-    position: absolute;
-    left:20px;
-    top: 300px;
-}
-
-#proj3{
-    position: absolute;
-    left:20px;
-    top:440px;
-}
-
-#right1{
-    position: absolute;
-    top: 50px;
-    left:370px;
-}
-
-#proj2{
-    position: absolute;
-    left:370px;
-    top:190px;
-}
-
-#right2{
-    position: absolute;
-    left: 370px;
-    top: 300px;
-}
-
-#proj4{
-    position: absolute;
-    left:370px;
-    top:440px;
-}
-

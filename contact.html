@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Page</title>
   </head>
-  <body>
+  <body class="d-flex flex-column">
+    <div class="page_content">
     <!-- Navigation Bar -->
-    <div class = "container-fluid nav_bar_full">
+    <nav class = "container-fluid nav_bar_full">
         <div class="row nav_bar_content">
           <!-- Logo/Name -->
             <div class="col-md-8 nav_name">
@@ -25,13 +26,13 @@
                 <a class= "nav_link_item" href="index.html">About</a>
             </div>
         </div>
-    </div>
+    </nav>
      <!-- Main content section -->
     <div class="container main_content">
         <div>
             <p class="body_header">Contact</p>
         </div>
-        <!-- Description about me -->
+        <!-- Contact me forms -->
         <div class="center_section">
             <form class= "container parentform">
                 Name: <br>
@@ -41,12 +42,12 @@
                 Message:<br>
                 <textarea class = "col-12 bgbox" name="" id="" cols="30" rows="10"></textarea>
             </form>
-    
             <button class="button">Submit</button>
         </div>
     </div>
-    <footer class="container-fluid" id = "footer_content">
-        <p>Copyright &reg;</p>
+</div>
+    <footer class="container-fluid footer" id = "footer_content">
+        <p class = "footer_text">Copyright &reg;</p>
     </footer>
 
     <!-- Optional JavaScript -->
