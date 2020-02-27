@@ -14,7 +14,6 @@ html,body{
 }
 
 .footer_text{
-    
     max-height: 100%;
 }
 .nav_bar_full{
@@ -74,8 +73,8 @@ body{
 
 #footer_content{
     text-align: center;
-    height:30px;
-    background-color: #666666;
+    height:60px;
+    background-color: #919191;
     border-top: 8px;
     border-top-style: solid;
     border-color: #4aaaa5;
